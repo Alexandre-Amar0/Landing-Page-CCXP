@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFD900;
+}
+
+header img {
+    width: 150px;
+    padding: 20px 40px;
+}
+
+#contentSection {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+}
+
+#textDiv {
+    background-color: #514988;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#textDiv h1 {
+    color: #F3C61F;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#textDiv h2 {
+    color: white;
+    padding: 20px;
+}
+
+#textDiv p {
+    color: white;
+    font-size: 18px;
+    padding: 40px 0px;
+}
+
+#videoDiv {
+    padding: 15px;
+}
+
+#countDownDiv {
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#countDownDiv h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #514988;
+}
+
+#videoDiv h2 {
+    color: #E33881;
+    padding: 0px 0px 10px 10px;
+}
+
+#purchaseSection {
+    padding: 10px 80px;
+}
+
+#purchaseSection h2 {
+    color: #F3C61F;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#ticketDiv {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#ticketDiv img {
+    width: 145px;
+}
+
+#ticketDiv button {
+    width: 400px;
+    height: 80px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #514988;
+    margin: auto 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ticketDiv button:hover {
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.card-selected {
+    border: 5px solid green;
+}
+
+input {
+    background: aliceblue;
+    border-radius: 10px;
+    color: black;
+    border: 0px;
+    margin: 30px 0px 20px 0px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#inputSubmit {
+    background: #514988;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 30px 0px;
+    padding: 0;
+}
+
+#divForms {
+    background-color: #FFD900;
+    text-align: center;
+}
